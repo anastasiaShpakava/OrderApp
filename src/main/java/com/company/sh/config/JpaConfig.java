@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.persistence.EntityManagerFactory;
 
 @Configuration
-@EnableJpaRepositories(basePackages = {"net.codejava.customer"})
+@EnableJpaRepositories (basePackages = {"com.company.sh.customer"})
 @EnableTransactionManagement
 public class JpaConfig {
     @Bean
