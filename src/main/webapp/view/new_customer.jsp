@@ -18,7 +18,8 @@
 <body>
 <div align="center">
     <h2>New Customer</h2>
-    <%--@elvariable id="customer" type=""--%>
+ 
+    <%--@elvariable id="customer" type="com"--%>
     <form:form action="save" method="post" modelAttribute="customer">
         <table border="0" cellpadding="5">
             <tr>
