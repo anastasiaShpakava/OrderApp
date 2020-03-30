@@ -1,4 +1,4 @@
-package com.company.sh.domain;
+package com.company.sh.customer;
 
 /**
  * This class for storing customer table in the database

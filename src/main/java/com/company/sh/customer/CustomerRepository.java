@@ -1,4 +1,7 @@
 package com.company.sh.customer;
 
-public interface CustomerRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface CustomerRepository extends CrudRepository<Customer, Long> {
+
 }
