@@ -1,6 +1,8 @@
 package com.company.sh.domain;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
+/**
+ * This class for storing customer table in the database
+ */
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
