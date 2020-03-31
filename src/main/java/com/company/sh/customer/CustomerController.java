@@ -21,6 +21,7 @@ public class CustomerController {
         mav.addObject("listCustomer", listCustomer);
         return mav;
     }
+
     @RequestMapping("/new")
     public String newCustomerForm(Map<String, Object> model) {
         Customer customer = new Customer();
