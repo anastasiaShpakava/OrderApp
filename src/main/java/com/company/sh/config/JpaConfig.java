@@ -21,6 +21,7 @@ public class JpaConfig {
         return factoryBean;
     }
 
+
     @Bean
     public JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
         JpaTransactionManager transactionManager = new JpaTransactionManager();
