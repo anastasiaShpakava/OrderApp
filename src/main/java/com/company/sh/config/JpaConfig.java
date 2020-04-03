@@ -13,12 +13,13 @@ import javax.persistence.EntityManagerFactory;
 @EnableJpaRepositories (basePackages = {"com.company.sh.customer"})
 @EnableTransactionManagement
 public class JpaConfig {
+   
     @Bean
     public LocalEntityManagerFactoryBean entityManagerFactory() {
         LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
         factoryBean.setPersistenceUnitName("SalesDB");
 
-        return factoryBean;
+    return factoryBean;
     }
 
     @Bean
