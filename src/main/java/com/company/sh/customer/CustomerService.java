@@ -10,11 +10,9 @@ import java.util.List;
 @Transactional
 public class CustomerService {
     @Autowired
+
     CustomerRepository repo;
 
-    public void save(Customer customer) {
-        repo.save(customer);
-    }
 
     public List<Customer> listAll() {
         return (List<Customer>) repo.findAll();
