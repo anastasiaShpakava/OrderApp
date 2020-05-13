@@ -16,7 +16,6 @@ public class CustomerService {
         repo.save(customer);
     }
 
-
     public List<Customer> listAll() {
         return (List<Customer>) repo.findAll();
     }
