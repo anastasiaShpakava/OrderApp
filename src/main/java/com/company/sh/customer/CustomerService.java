@@ -8,7 +8,6 @@ import java.util.List;
 @Service
 @Transactional
 public class CustomerService {
-
     private final CustomerRepository repo;
 
     public CustomerService(CustomerRepository repo) {
